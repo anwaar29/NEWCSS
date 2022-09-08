@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(204, 154, 154);
+}
+.lis{
+position: relative;
+left: 500px;
+}
+.b1{
+    height:200px;
+    width: 200px;
+    background-color: green;
+    display:inline-block;
+    transition-duration: 2s;
+}
+.b2{
+    height:200px;
+    width: 200px;
+    background-color: green;
+    display: inline-block;
+    transition-duration: 2s;
+
+}
+.b3{
+    height:200px;
+    width: 200px;
+    background-color: green;
+    display: inline-block;
+    transition-duration: 3s;
+
+}
+.b3{
+    height:200px;
+    width: 200px;
+    background-color: green;
+    display: inline-block;
+    transition-duration: 4s;
+
+}
+.b4{
+    height:200px;
+    width: 200px;
+    background-color: green;
+    display: inline-block;
+    transition-duration: 5s;
+
+}
+.b5{
+    height:200px;
+    width: 200px;
+    background-color: green;
+    display: inline-block;
+    transition-duration: 4s;
+
+}
+.b6{
+    height:200px;
+    width: 200px;
+    background-color: green;
+    display: inline-block;
+    transition-duration: 5s;
+
+}
+.b7{
+    height:200px;
+    width: 200px;
+    background-color: green;
+    display: inline-block;
+    transition-duration: 6s;
+
+}
+.b1:hover{
+width: 300px;
+}
+.b2:hover{
+  height:300px;
+  width: 300px;  
+}
+.b3:hover{
+    width: 400px;  
+  }
+  .b4:hover{
+    width: 500px;  
+  }
+  .b5:hover{
+    width: 400px;  
+  }
+  .b6:hover{
+    width: 550px;  
+  }
+  .b7:hover{
+    width: 600px;  
+  }
+.bottom{
+  position: relative;
+  left: 650px;
+  font-size:25px;
+}

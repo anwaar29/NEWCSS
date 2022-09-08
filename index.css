@@ -1,0 +1,192 @@
+body{
+        background-color:coral
+}
+.list-box{
+position: relative;
+left: 400px;
+}
+.L11{
+height: 100px;
+width: 100px;
+background-color: greenyellow;
+margin: 30px;
+display:inline-block;
+transform: skew(5deg,7deg);
+animation-name: A1;
+animation-duration:3s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
+}
+.L12{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    margin: 30px;
+    display:inline-block;
+    transform: skew(5deg,7deg);
+    animation-name: A1;
+animation-duration:3s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
+    }
+    .L13{
+        height: 100px;
+        width: 100px;
+        background-color: greenyellow;
+        margin: 30px;
+        display: inline-block;
+        transform: skew(5deg,7deg);
+        animation-name: A1;
+animation-duration:3s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
+        }
+.L21{
+     height: 100px;
+     width: 100px;
+     background-color:gray;
+     margin: 30px;
+     display:inline-block;
+     transform: skewY(-15deg);
+     animation-name: A2;
+     animation-duration:2s;
+     animation-iteration-count: infinite;
+     animation-direction:alternate;
+     
+     }
+     .L22{
+        height: 100px;
+        width: 100px;
+        background-color: gray;
+        margin: 30px;
+        display:inline-block;
+        transform: skewY(-15deg);
+        animation-name: A2;
+     animation-duration:2s;
+     animation-iteration-count: infinite;
+     animation-direction:alternate;
+        }
+.L23{
+     height: 100px;
+    width: 100px;
+    background-color: gray;
+    margin: 30px;
+    display: inline-block;
+    transform: skewY(-15deg);
+    animation-name: A2;
+     animation-duration:2s;
+     animation-iteration-count: infinite;
+     animation-direction:alternate;
+    }
+    .L31{
+        height: 100px;
+        width: 100px;
+        background-color: greenyellow;
+        margin: 30px;
+        display:inline-block;
+        transform: rotate(30deg);
+        animation-name: A3;
+        animation-duration:3s;
+        animation-iteration-count: infinite;
+        }
+        .L32{
+           height: 100px;
+           width: 100px;
+           background-color: greenyellow;
+           margin: 30px;
+           display:inline-block;
+           transform: rotate(30deg);
+           animation-name: A3;
+        animation-duration:3s;
+        animation-iteration-count: infinite;
+           }
+   .L33{
+        height: 100px;
+       width: 100px;
+       background-color: greenyellow;
+       margin: 30px;
+       display: inline-block;
+       transform: rotate(30deg);
+       animation-name: A3;
+        animation-duration:3s;
+        animation-iteration-count: infinite;
+       }
+       .L41{
+        height: 100px;
+        width: 100px;
+        background-color: greenyellow;
+        margin: 30px;
+        display:inline-block;
+        animation-name: A41;
+        animation-duration:3s;
+        animation-iteration-count: infinite;
+        }
+        .L42{
+           height: 100px;
+           width: 100px;
+           background-color: greenyellow;
+           margin: 30px;
+           display:inline-block;
+           animation-name: A42;
+        animation-duration:3s;
+        animation-iteration-count: infinite;
+           
+           }
+   .L43{
+        height: 100px;
+       width: 100px;
+       background-color: greenyellow;
+       margin: 30px;
+       display: inline-block;
+       animation-name: A43;
+       animation-duration:3s;
+       animation-iteration-count: infinite;
+       animation-direction: alternate-reverse;
+       }
+      @keyframes A1
+      { 
+         0%{
+            transform: skewX(25deg);
+         }
+       100%{
+        transform: skewX(-25deg);
+       }
+      }
+      @keyframes A2
+      { 
+       100%{
+        transform:skew(15deg,7deg); 
+       }
+      }
+      @keyframes A3
+      { 
+       100%{
+        transform: rotate(360deg);
+       }
+      }
+      @keyframes A41
+      { 25%{
+        transform: scaleY(0.5);
+      }
+       100%{
+        transform: scaleY(1);
+       }
+      }
+      @keyframes A42
+      { 50%{
+         transform: scaleX(0.5);
+
+      }
+       100%{
+         transform: scaleX(1);
+         background-color: red;
+
+       }
+      }
+      @keyframes A43
+      { 
+       100%{
+        transform: rotate(200deg);
+       }
+      }
+     
